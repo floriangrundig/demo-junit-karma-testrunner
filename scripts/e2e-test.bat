@@ -8,4 +8,4 @@ REM - NodeJS (http://nodejs.org/)
 REM - Karma (npm install -g karma)
 
 set BASE_DIR=%~dp0
-karma start "%BASE_DIR%\..\config\karma-e2e.conf.js" %*
+karma start "%BASE_DIR%\..\src\test\resources\config\karma-e2e.conf.js" %*
