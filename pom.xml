@@ -31,7 +31,7 @@
                     <stopKey>STOP</stopKey>
                     <stopPort>8005</stopPort>
                     <port>8080</port>
-                    <daemon>true</daemon>
+                    <daemon>false</daemon>
                 </configuration>
                 <executions>
                     <execution>
@@ -40,6 +40,10 @@
                         <goals>
                             <goal>start</goal>
                         </goals>
+                        <configuration>
+                            <daemon>true</daemon>
+                            <reload>manual</reload>
+                        </configuration>
                     </execution>
                     <execution>
                         <id>stop-jetty</id>
