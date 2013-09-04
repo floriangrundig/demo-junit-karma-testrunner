@@ -11,7 +11,7 @@ module.exports = function (config) {
         ],
 
         frameworks: ['jasmine'],
-        reporters: ['progress', 'junit'],
+        reporters: ['junit','remote'],
 
         autoWatch: false,
         singleRun: true,
@@ -22,10 +22,15 @@ module.exports = function (config) {
             outputFile: '../target/test_out/unit.xml',
             suite: 'unit'
         },
+        remoteReporter: {
+            host: 'localhost',
+            port: '9876'
+        },
         plugins: [
             'karma-jasmine',
             'karma-chrome-launcher',
-            'karma-junit-reporter'
+            'karma-junit-reporter',
+            'karma-remote-reporter'
         ]
 
 
