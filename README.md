@@ -19,7 +19,12 @@ powerful karma framework too. (The grails plugin will follow soon - visit Immobi
 ## Usage
 
 Before you can start clone this web app...
+
+
 You should have some experience with karma - the angular tutorial (http://docs.angularjs.org/tutorial) should be good start...
+
+
+* YOU NEED JAVA >= 1.7 TO RUN THIS APP
 
 ### Running the webapp
 
