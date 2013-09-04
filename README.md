@@ -88,7 +88,7 @@ mvn integration-test
 
 To run all tests with JUnit and maven (make sure that no jetty is already running):
 ```
-mvn integration-test
+mvn verify
 ```
 
 ### Use the KarmaTestSuiteRunner in your own project
